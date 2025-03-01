@@ -2,7 +2,7 @@ import os
 import time
 import requests
 import tkinter as tk
-from config import API_KEY
+from config import API_KEY1, API_KEY2
 from trafficData import fetch_new_traffic_data, autofill_lat_long
 from roadInfo import get_road_name_from_coordinates, count_nearby_roads
 from degreeChanger import meters_to_degrees_latitude, meters_to_degrees_longitude
